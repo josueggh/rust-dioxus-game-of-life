@@ -1,0 +1,24 @@
+[application]
+
+name = "my-life-mobile"
+out_dir = "dist"
+height="1200"
+[web.app]
+
+# HTML title tag content
+title = "my-life-mobile"
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = []
+
+# Additional JavaScript files
+script = []
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
